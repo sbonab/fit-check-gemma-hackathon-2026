@@ -81,6 +81,18 @@ First-time dependency/model downloads require Internet on the development machin
 the installed app performs inference offline. Enable an offline English TTS voice
 on the phone. Provisioning uses `run-as` and therefore requires the debug APK.
 
+## Why Best Use of LiteRT
+
+LiteRT-LM powers the app's image understanding, audio transcription and language
+generation on the Pixel, with offline Android speech completing the interaction.
+We profiled the actual device and tested vision backends, context sizes, visual
+token budgets and multi-token prediction. The selected prepared contexts and
+140-token image budget reduced two saved-photo measurements from 12.6/21.8 seconds
+to 7.3/13.8 seconds. These small-sample timings exclude capture and speech;
+prewarming moves work to startup/playback and fewer visual tokens trade detail
+for speed. The award case is a working multimodal experience plus documented,
+reproducible LiteRT engineering. [Full award pitch](submission/pitch.md#why-fit-check-deserves-best-use-of-litert).
+
 ## Architecture
 
 CameraX / microphone → Gemma 4 E2B via LiteRT-LM 0.18.1 → validated JSON

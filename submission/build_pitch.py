@@ -68,17 +68,17 @@ for s in sentences:
 text(46,119,'Then: "How would you make it better?"',15,'Bold')
 para(46,97,'Styling advice uses the same original outfit photo.',520,13,color=MUTED)
 c.setFillColor(HexColor('#E9EBDC'));c.roundRect(620,169,294,278,17,fill=1,stroke=0)
-text(640,419,'BUILT TO RUN OFFLINE',11,'Bold')
+text(640,419,'WHY BEST USE OF LITERT',11,'Bold')
 y=390
 for title,body in [
-    ('See + hear','CameraX photo + foreground microphone.'),
-    ('Reason on the Pixel','Gemma images, audio and text via LiteRT-LM.'),
-    ('Speak + follow up','Offline Android TTS; original-photo context.'),
-    ('Keep it local','No Internet permission. No cloud inference.'),
+    ('A full multimodal experience','Gemma vision, audio and language on Pixel.'),
+    ('Deliberate runtime engineering','GPU generation; constrained JSON output.'),
+    ('Measured on the actual phone','Prepared contexts + 140 visual tokens.'),
+    ('Local by construction','No Internet permission; offline speech.'),
 ]:
     text(640,y,title,14,'Bold');y=para(640,y-9,body,249,12,16)-17
-para(625,146,'WORKING DRAFT',280,10,font='Bold',color=MUTED)
-para(625,126,'Camera-to-roast and styling follow-up verified.<br/>Buttons support the demo; live wake recognition<br/>and garment accuracy still need tuning.',280,11,16)
+para(625,146,'TWO SAVED-PHOTO INFERENCE RUNS',280,10,font='Bold',color=MUTED)
+para(625,126,'12.6 / 21.8 s baseline → 7.3 / 13.8 s tuned.<br/>Small sample; excludes capture and speech.<br/>Live voice and clothing accuracy need tuning.',280,11,16)
 para(46,65,'Selected, unedited model output. Screenshot and response are separate captures of the same outfit.',850,9,color=MUTED)
 c.save()
 print(OUT)
