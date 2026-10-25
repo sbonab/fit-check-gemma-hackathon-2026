@@ -8,6 +8,7 @@ Camera, audio, model inference and spoken replies run on the phone.
 The application has **no Internet permission**.
 
 [Read the five-slide pitch](output/pdf/fit-check-pitch.pdf) ·
+[Watch/download the 85-second narrated pitch](https://github.com/sbonab/fit-check-gemma-hackathon-2026/raw/refs/heads/main/output/video/fit-check-pitch.mp4) ·
 [Submission summary](submission/pitch.md) ·
 [Progress and known limitations](docs/milestone-progress.md)
 
@@ -106,6 +107,13 @@ run commands relative to the repository root. Private recordings, model weights,
 developer caches and the unrelated poker prototype are excluded.
 
 ## Pitch assets
+
+`output/video/fit-check-pitch.mp4` is a 1080p narrated walkthrough of the five-slide
+PDF, with burned-in captions. It uses synthetic narration and a saved response
+excerpt; it is not a live recording of the Android app or its inference latency.
+Separate SRT captions, a transcript and timing metadata are in the same folder.
+Rebuild on macOS with `python3 submission/build_video.py` (Pillow, Poppler,
+ffmpeg and the local Samantha voice).
 
 The PDF source is `submission/build_pitch.py` (`pip install reportlab`). The screenshot
 and selected response are deliberately included submission assets; other private

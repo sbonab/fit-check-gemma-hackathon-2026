@@ -1,0 +1,14 @@
+[
+  {"slide":1,"text":"Meet Fit Check: your outfit, a roast, and a better idea. A private comedy mirror powered by Gemma on your phone."},
+  {"slide":1,"text":"Frame yourself with either camera, ask for a roast, then ask how to make the outfit better."},
+  {"slide":2,"text":"Here's an actual Gemma response from a saved outfit replay."},
+  {"slide":2,"text":"The blue and orange jacket looks like it was designed by a committee that couldn't agree on a primary color."},
+  {"slide":2,"text":"That's the goal: a joke tied to what you're wearing, followed by useful styling advice."},
+  {"slide":3,"text":"For Mobile AI, the experience connects image understanding, spoken requests, and language generation in one app."},
+  {"slide":3,"text":"The follow-up reuses the original photo, so advice stays connected to the same outfit."},
+  {"slide":4,"text":"For Best Use of LiteRT, we measured the real Pixel, compared runtime settings, and selected prepared contexts and a smaller image token budget."},
+  {"slide":4,"text":"Two saved-photo runs fell from about thirteen and twenty-two seconds, to seven and fourteen. These are small-sample inference timings, not guaranteed response times."},
+  {"slide":5,"text":"For the Android and Pixel experience, camera capture, foreground audio, local inference, captions, and offline speech work together on one phone."},
+  {"slide":5,"text":"Live wake recognition and clothing accuracy still need tuning. The buttons provide the reliable demo path."},
+  {"slide":5,"text":"Fit Check: see the outfit, hear the roast, ask for a better fit. No cloud inference."}
+]

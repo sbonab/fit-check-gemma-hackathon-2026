@@ -76,6 +76,8 @@ when the status reads **Listening**. Keep the buttons available for the draft de
 
 ## Submission links
 
+- [Narrated pitch video](../output/video/fit-check-pitch.mp4) - 85 seconds, 1080p,
+  captioned PDF walkthrough with synthetic narration, not a live app recording.
 - [Public GitHub repository](https://github.com/sbonab/fit-check-gemma-hackathon-2026)
 - [Five-slide pitch PDF](../output/pdf/fit-check-pitch.pdf): product, actual response,
   Mobile AI, Best Use of LiteRT, and Android & Pixel Experience.

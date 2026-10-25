@@ -1,0 +1,82 @@
+{
+  "source_pdf_sha256": "09214f44f874e9224a4911ce19d86ad582a49055b9a00766d97253770e40b7c4",
+  "duration_seconds": 85.253667,
+  "resolution": "1920x1080",
+  "fps": 24,
+  "narration": "macOS Samantha, synthetic; not the recorded Android app voice",
+  "scope": "PDF pitch walkthrough; no live device interaction or inference wait is depicted",
+  "chapters": [
+    {
+      "slide": 1,
+      "text": "Meet Fit Check: your outfit, a roast, and a better idea. A private comedy mirror powered by Gemma on your phone.",
+      "start_seconds": 0,
+      "duration_seconds": 7.597
+    },
+    {
+      "slide": 1,
+      "text": "Frame yourself with either camera, ask for a roast, then ask how to make the outfit better.",
+      "start_seconds": 7.597,
+      "duration_seconds": 5.725
+    },
+    {
+      "slide": 2,
+      "text": "Here's an actual Gemma response from a saved outfit replay.",
+      "start_seconds": 13.322,
+      "duration_seconds": 4.0
+    },
+    {
+      "slide": 2,
+      "text": "The blue and orange jacket looks like it was designed by a committee that couldn't agree on a primary color.",
+      "start_seconds": 17.322,
+      "duration_seconds": 5.916667
+    },
+    {
+      "slide": 2,
+      "text": "That's the goal: a joke tied to what you're wearing, followed by useful styling advice.",
+      "start_seconds": 23.239,
+      "duration_seconds": 5.541667
+    },
+    {
+      "slide": 3,
+      "text": "For Mobile AI, the experience connects image understanding, spoken requests, and language generation in one app.",
+      "start_seconds": 28.78,
+      "duration_seconds": 7.833333
+    },
+    {
+      "slide": 3,
+      "text": "The follow-up reuses the original photo, so advice stays connected to the same outfit.",
+      "start_seconds": 36.614,
+      "duration_seconds": 5.759
+    },
+    {
+      "slide": 4,
+      "text": "For Best Use of LiteRT, we measured the real Pixel, compared runtime settings, and selected prepared contexts and a smaller image token budget.",
+      "start_seconds": 42.373,
+      "duration_seconds": 9.5
+    },
+    {
+      "slide": 4,
+      "text": "Two saved-photo runs fell from about thirteen and twenty-two seconds, to seven and fourteen. These are small-sample inference timings, not guaranteed response times.",
+      "start_seconds": 51.873,
+      "duration_seconds": 10.426
+    },
+    {
+      "slide": 5,
+      "text": "For the Android and Pixel experience, camera capture, foreground audio, local inference, captions, and offline speech work together on one phone.",
+      "start_seconds": 62.299,
+      "duration_seconds": 10.041667
+    },
+    {
+      "slide": 5,
+      "text": "Live wake recognition and clothing accuracy still need tuning. The buttons provide the reliable demo path.",
+      "start_seconds": 72.34,
+      "duration_seconds": 6.633
+    },
+    {
+      "slide": 5,
+      "text": "Fit Check: see the outfit, hear the roast, ask for a better fit. No cloud inference.",
+      "start_seconds": 78.973,
+      "duration_seconds": 6.259
+    }
+  ]
+}

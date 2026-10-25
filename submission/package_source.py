@@ -15,6 +15,8 @@ shutil.copy2(root / 'eval/README.md', destination / 'eval/README.md')
 shutil.copytree(root / 'submission', destination / 'submission', dirs_exist_ok=True, ignore=ignored)
 (destination / 'output/pdf').mkdir(parents=True, exist_ok=True)
 shutil.copy2(root / 'output/pdf/fit-check-pitch.pdf', destination / 'output/pdf/fit-check-pitch.pdf')
+if (root / 'output/video').exists():
+    shutil.copytree(root / 'output/video', destination / 'output/video', dirs_exist_ok=True)
 shutil.copy2(root / 'submission/repository-README.md', destination / 'README.md')
 shutil.copy2(root / '.gitignore', destination / '.gitignore')
 shutil.copy2(root / '.gitattributes', destination / '.gitattributes')

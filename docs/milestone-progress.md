@@ -15,6 +15,9 @@ Public submission repository:
 updates are committed and pushed from `tmp/submission-repo`.
 The original two product pages are followed by dedicated Mobile AI, LiteRT and
 Android & Pixel slides, with current implementation diagrams and measured evidence.
+An [85-second narrated pitch video](../output/video/fit-check-pitch.mp4) uses the
+five-page PDF, synthetic narration and burned-in captions. It is a slide walkthrough,
+not a live recording of the Android app. A transcript, SRT and rebuild script are included.
 
 ## User story
 

@@ -1,0 +1,51 @@
+1
+00:00:00,100 --> 00:00:07,197
+Meet Fit Check: your outfit, a roast, and a better idea. A private comedy mirror powered by Gemma on your phone.
+
+2
+00:00:07,697 --> 00:00:12,922
+Frame yourself with either camera, ask for a roast, then ask how to make the outfit better.
+
+3
+00:00:13,422 --> 00:00:16,922
+Here's an actual Gemma response from a saved outfit replay.
+
+4
+00:00:17,422 --> 00:00:22,839
+The blue and orange jacket looks like it was designed by a committee that couldn't agree on a primary color.
+
+5
+00:00:23,339 --> 00:00:28,380
+That's the goal: a joke tied to what you're wearing, followed by useful styling advice.
+
+6
+00:00:28,880 --> 00:00:36,214
+For Mobile AI, the experience connects image understanding, spoken requests, and language generation in one
+app.
+
+7
+00:00:36,714 --> 00:00:41,973
+The follow-up reuses the original photo, so advice stays connected to the same outfit.
+
+8
+00:00:42,473 --> 00:00:51,473
+For Best Use of LiteRT, we measured the real Pixel, compared runtime settings, and selected prepared contexts
+and a smaller image token budget.
+
+9
+00:00:51,973 --> 00:01:01,899
+Two saved-photo runs fell from about thirteen and twenty-two seconds, to seven and fourteen. These are
+small-sample inference timings, not guaranteed response times.
+
+10
+00:01:02,399 --> 00:01:11,940
+For the Android and Pixel experience, camera capture, foreground audio, local inference, captions, and offline
+speech work together on one phone.
+
+11
+00:01:12,440 --> 00:01:18,573
+Live wake recognition and clothing accuracy still need tuning. The buttons provide the reliable demo path.
+
+12
+00:01:19,073 --> 00:01:24,832
+Fit Check: see the outfit, hear the roast, ask for a better fit. No cloud inference.
