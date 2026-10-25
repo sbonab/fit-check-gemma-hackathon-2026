@@ -1,0 +1,12 @@
+.tools/
+.gradle-home/
+android/.gradle/
+android/**/build/
+android/local.properties
+android/.idea/
+android/*.iml
+eval/results/*
+!eval/results/.gitkeep
+*.log
+tmp/
+output/*.zip

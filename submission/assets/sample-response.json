@@ -1,0 +1,12 @@
+{
+  "description": "Unedited model output from a saved replay of the outfit shown in the development screenshot. Screenshot and output are separate captures.",
+  "model": "Gemma 4 E2B",
+  "runtime": "LiteRT-LM 0.18.1",
+  "sentences": [
+    "This ensemble screams 'I just woke up like this' with a palette that suggests a failed attempt at coordinated effort.",
+    "The blue and orange jacket looks like it was designed by a committee that couldn't agree on a primary color.",
+    "That white shirt is clearly trying too hard to be the neutral anchor in this aggressively colored disaster."
+  ],
+  "output": "This ensemble screams 'I just woke up like this' with a palette that suggests a failed attempt at coordinated effort. The blue and orange jacket looks like it was designed by a committee that couldn't agree on a primary color. That white shirt is clearly trying too hard to be the neutral anchor in this aggressively colored disaster.",
+  "note": "Selected demonstration output; quality varies across attempts."
+}

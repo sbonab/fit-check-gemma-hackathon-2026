@@ -1,0 +1,9 @@
+<resources>
+    <item name="outfit_camera" type="id" />
+    <item name="outfit_roast" type="id" />
+    <item name="outfit_improve" type="id" />
+    <item name="outfit_status" type="id" />
+    <item name="outfit_result" type="id" />
+    <item name="outfit_mic" type="id" />
+    <item name="outfit_flip" type="id" />
+</resources>
