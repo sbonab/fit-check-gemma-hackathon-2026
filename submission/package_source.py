@@ -17,6 +17,7 @@ shutil.copytree(root / 'submission', destination / 'submission', dirs_exist_ok=T
 shutil.copy2(root / 'output/pdf/fit-check-pitch.pdf', destination / 'output/pdf/fit-check-pitch.pdf')
 shutil.copy2(root / 'submission/repository-README.md', destination / 'README.md')
 shutil.copy2(root / '.gitignore', destination / '.gitignore')
+shutil.copy2(root / '.gitattributes', destination / '.gitattributes')
 with zipfile.ZipFile(root / 'output/fit-check-source.zip','w',zipfile.ZIP_DEFLATED) as z:
     for p in sorted(destination.rglob('*')):
         if p.is_file() and '.git' not in p.relative_to(destination).parts:
