@@ -5,7 +5,6 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.colors import HexColor
-from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Paragraph
 from reportlab.lib.styles import ParagraphStyle
 
@@ -51,11 +50,25 @@ para(48,270,'Point the camera. Ask for a roast.<br/>Then ask how to make the out
 c.setFillColor(LIME);c.roundRect(46,115,470,49,14,fill=1,stroke=0)
 text(64,133,'"Hey Gemma, roast my outfit."',20,'Bold')
 text(48,78,'Gemma 4 E2B + LiteRT-LM. Everything on the phone.',13,'Bold')
-shot=ImageReader(str(ROOT/'submission/assets/app-screenshot.png'))
-sw,sh=shot.getSize(); ih=422;iw=ih*sw/sh
-c.setFillColor(INK);c.roundRect(649,54,iw+12,ih+12,24,fill=1,stroke=0)
-c.drawImage(shot,655,60,width=iw,height=ih,mask='auto')
-text(635,43,'Real app screenshot - earlier development build',8,color=MUTED)
+# Photo-free vector app illustration. No personal image is embedded in the PDF.
+c.setFillColor(INK);c.roundRect(649,54,201,434,24,fill=1,stroke=0)
+c.setFillColor(BG);c.roundRect(655,60,189,422,20,fill=1,stroke=0)
+c.setFillColor(INK);c.roundRect(724,471,51,4,2,fill=1,stroke=0)
+text(668,437,'Fit Check',24,'Display')
+c.setFillColor(HexColor('#E9EBDC'));c.roundRect(665,153,169,263,16,fill=1,stroke=0)
+c.setFillColor(LIME);c.circle(749,295,70,fill=1,stroke=0)
+# Generic garment symbol rather than a photo or simulated model observation.
+p=c.beginPath();p.moveTo(724,336);p.lineTo(704,325);p.lineTo(688,298)
+p.lineTo(708,286);p.lineTo(717,300);p.lineTo(717,247)
+p.lineTo(781,247);p.lineTo(781,300);p.lineTo(790,286)
+p.lineTo(810,298);p.lineTo(794,325);p.lineTo(774,336)
+p.curveTo(765,317,733,317,724,336);p.close()
+c.setFillColor(BG);c.setStrokeColor(INK);c.setLineWidth(1.8);c.drawPath(p,fill=1,stroke=1)
+text(707,182,'Outfit in frame',12,'Bold')
+c.setFillColor(LIME);c.roundRect(665,92,169,39,18,fill=1,stroke=0)
+text(699,106,'Roast my outfit',12,'Bold')
+c.setFillColor(MUTED);c.roundRect(721,71,57,3,1.5,fill=1,stroke=0)
+text(686,43,'Illustrative app view',8,color=MUTED)
 c.showPage()
 
 base(2)
