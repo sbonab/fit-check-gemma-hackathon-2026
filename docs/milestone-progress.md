@@ -3,6 +3,15 @@
 Updated October 24, 2026. Project: `outfit-roast/`. App: **Fit Check**
 (`dev.local.outfitroast`). The existing poker project and installed app are intact.
 
+## Draft submission
+
+[Two-page pitch PDF](../output/pdf/fit-check-pitch.pdf) and
+[submission summary](../submission/pitch.md) are prepared with a real development
+screenshot and unedited saved model output. A standalone source export excludes
+the poker app, private evaluation recordings, model weights and developer caches.
+GitHub publication requires authentication; `submission/publish.sh` performs the
+export and creates the public submission repo after GitHub CLI is authorized.
+
 ## User story
 
 1. Open the style-themed app, frame yourself with the front camera or use **Flip**.
