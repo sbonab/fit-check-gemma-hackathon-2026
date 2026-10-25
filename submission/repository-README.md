@@ -7,7 +7,7 @@ LiteRT-LM** for the Google Gemma Hardware Hackathon, Mobile AI track.
 Camera, audio, model inference and spoken replies run on the phone.
 The application has **no Internet permission**.
 
-[Read the two-page pitch](output/pdf/fit-check-pitch.pdf) ·
+[Read the five-slide pitch](output/pdf/fit-check-pitch.pdf) ·
 [Submission summary](submission/pitch.md) ·
 [Progress and known limitations](docs/milestone-progress.md)
 

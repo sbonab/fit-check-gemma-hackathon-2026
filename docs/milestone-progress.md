@@ -5,7 +5,7 @@ Updated October 24, 2026. Project: `outfit-roast/`. App: **Fit Check**
 
 ## Draft submission
 
-[Two-page pitch PDF](../output/pdf/fit-check-pitch.pdf) and
+[Five-slide pitch PDF](../output/pdf/fit-check-pitch.pdf) and
 [submission summary](../submission/pitch.md) are prepared with a real development
 screenshot and unedited saved model output. A standalone source export excludes
 the poker app, private evaluation recordings, model weights and developer caches.
@@ -13,6 +13,8 @@ Public submission repository:
 [sbonab/fit-check-gemma-hackathon-2026](https://github.com/sbonab/fit-check-gemma-hackathon-2026).
 `submission/package_source.py` refreshes the curated source export; subsequent
 updates are committed and pushed from `tmp/submission-repo`.
+The original two product pages are followed by dedicated Mobile AI, LiteRT and
+Android & Pixel slides, with current implementation diagrams and measured evidence.
 
 ## User story
 
