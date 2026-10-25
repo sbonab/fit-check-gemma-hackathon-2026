@@ -54,6 +54,7 @@ when the status reads **Listening**. Keep the buttons available for the draft de
 
 ## Submission links
 
+- [Public GitHub repository](https://github.com/sbonab/fit-check-gemma-hackathon-2026)
 - [Two-page pitch PDF](../output/pdf/fit-check-pitch.pdf)
 - [App screenshot](assets/app-screenshot.png)
 - [Implementation progress](../docs/milestone-progress.md)

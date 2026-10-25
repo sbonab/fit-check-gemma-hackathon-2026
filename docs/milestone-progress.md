@@ -9,8 +9,10 @@ Updated October 24, 2026. Project: `outfit-roast/`. App: **Fit Check**
 [submission summary](../submission/pitch.md) are prepared with a real development
 screenshot and unedited saved model output. A standalone source export excludes
 the poker app, private evaluation recordings, model weights and developer caches.
-GitHub publication requires authentication; `submission/publish.sh` performs the
-export and creates the public submission repo after GitHub CLI is authorized.
+Public submission repository:
+[sbonab/fit-check-gemma-hackathon-2026](https://github.com/sbonab/fit-check-gemma-hackathon-2026).
+`submission/package_source.py` refreshes the curated source export; subsequent
+updates are committed and pushed from `tmp/submission-repo`.
 
 ## User story
 
